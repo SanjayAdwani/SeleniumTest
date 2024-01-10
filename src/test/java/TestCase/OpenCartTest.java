@@ -25,13 +25,15 @@ public class OpenCartTest {
 	  }
 	
   @Test
-  public void f() {
+  public void OpenCart() throws InterruptedException {
 	  driver.get("https://www.amazon.in/");
 	  Cart.OpenCart();
+	  Thread.sleep(2000);
   }
 
   @AfterTest
   public void afterTest() {
+	  driver.close();
   }
 
 }
