@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCase.AmazonLoginTest">
+      <class name="TestCase.OpenCartTest">
         <methods>
           <include name="afterTest"/>
-          <include name="CheckLogin"/>
           <include name="beforeTest"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- TestCase.AmazonLoginTest -->
+      </class> <!-- TestCase.OpenCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
