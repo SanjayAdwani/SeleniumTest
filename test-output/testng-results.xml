@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-10T05:28:21Z" name="Default suite" finished-at="2024-01-10T05:28:24Z" duration-ms="3147">
+  <suite started-at="2024-01-11T07:29:42Z" name="Default suite" finished-at="2024-01-11T07:29:47Z" duration-ms="4963">
     <groups>
     </groups>
-    <test started-at="2024-01-10T05:28:21Z" name="Default test" finished-at="2024-01-10T05:28:24Z" duration-ms="3147">
+    <test started-at="2024-01-11T07:29:42Z" name="Default test" finished-at="2024-01-11T07:29:47Z" duration-ms="4963">
       <class name="TestCase.OpenCartTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCase.OpenCartTest@73302995]" started-at="2024-01-10T10:58:21Z" name="beforeTest" finished-at="2024-01-10T10:58:22Z" duration-ms="1186" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCase.OpenCartTest@73302995]" started-at="2024-01-11T12:59:42Z" name="beforeTest" finished-at="2024-01-11T12:59:43Z" duration-ms="1353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="OpenCart()[pri:0, instance:TestCase.OpenCartTest@73302995]" started-at="2024-01-10T10:58:22Z" name="OpenCart" finished-at="2024-01-10T10:58:24Z" duration-ms="1838" status="FAIL">
+        <test-method signature="OpenCart()[pri:0, instance:TestCase.OpenCartTest@73302995]" started-at="2024-01-11T12:59:43Z" name="OpenCart" finished-at="2024-01-11T12:59:46Z" duration-ms="3435" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#nav\-carts"}
-  (Session info: chrome=120.0.6099.200)
+  (Session info: chrome=120.0.6099.216)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e48d3e0360b9b5d1d51c7d7d9ed19be3, findElement {using=id, value=nav-carts}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\SANJAY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51756}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51756/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e48d3e0360b9b5d1d51c7d7d9ed19be3]]>
+Command: [1f2cf0015917543d57dbf84e80397d2e, findElement {using=id, value=nav-carts}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\SANJAY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63881}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63881/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f2cf0015917543d57dbf84e80397d2e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#nav\-carts"}
-  (Session info: chrome=120.0.6099.200)
+  (Session info: chrome=120.0.6099.216)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e48d3e0360b9b5d1d51c7d7d9ed19be3, findElement {using=id, value=nav-carts}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\SANJAY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51756}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51756/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e48d3e0360b9b5d1d51c7d7d9ed19be3
+Command: [1f2cf0015917543d57dbf84e80397d2e, findElement {using=id, value=nav-carts}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\SANJAY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63881}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63881/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f2cf0015917543d57dbf84e80397d2e
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -83,7 +83,7 @@ Session ID: e48d3e0360b9b5d1d51c7d7d9ed19be3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenCart -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCase.OpenCartTest@73302995]" started-at="2024-01-10T10:58:24Z" name="afterTest" finished-at="2024-01-10T10:58:24Z" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCase.OpenCartTest@73302995]" started-at="2024-01-11T12:59:46Z" name="afterTest" finished-at="2024-01-11T12:59:47Z" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
