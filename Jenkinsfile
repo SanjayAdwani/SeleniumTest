@@ -18,6 +18,22 @@ pipeline {
                bat 'mvn test -Dbrowser=localchrome'
             }
         }
-       
+        stage('Deploy'){
+            steps{
+publishHTML([allowMissing: false, alwaysLinkToLastBuild: true, keepAll: true, reportDir: '', reportFiles: 'target/surefire-reports/SReport*.html', reportName: 'SeleniumPipeline', reportTitles: '', useWrapperFileDirectly: true])
+            }
+        }
+        
+    }
+     post {
+        // Clean after build
+        always {
+            cleanWs(cleanWhenNotBuilt: false,
+                    deleteDirs: true,
+                    disableDeferredWipeout: true,
+                    notFailBuild: true,
+                    patterns: [[pattern: '.gitignore', type: 'INCLUDE'],
+                               [pattern: '.propsfile', type: 'EXCLUDE']])
+        }
     }
 }
