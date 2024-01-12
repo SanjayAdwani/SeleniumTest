@@ -8,17 +8,17 @@ pipeline {
                 echo 'Hello World'
             }
         }
-      stage('Build') {
+      stage('Build Stage') {
             steps {
               bat 'mvn compile'
             }
         }
-        stage('Run test') {
+        stage('Test Stage') {
             steps {
                bat 'mvn test -Dbrowser=localchrome'
             }
         }
-        stage('Deploy'){
+        stage('Deployment Stage'){
             steps{
 publishHTML([allowMissing: false, alwaysLinkToLastBuild: true, keepAll: true, reportDir: '', reportFiles: 'target/surefire-reports/SReport*.html', reportName: 'SeleniumPipeline', reportTitles: '', useWrapperFileDirectly: true])
             }
